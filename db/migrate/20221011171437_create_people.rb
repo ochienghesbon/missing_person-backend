@@ -6,7 +6,7 @@ class CreatePeople < ActiveRecord::Migration[6.1]
       t.integer :age
       t.string :location
       t.string :description
-      t.boolean "isMissing", default: true, null: false
+      t.boolean "is_missing", default: true, null: false
 
       t.timestamps
     end
