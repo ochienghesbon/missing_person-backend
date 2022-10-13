@@ -5,6 +5,10 @@
 This project is scaffolded so that you can build a React frontend and Rails
 backend together, and easily deploy them to Heroku.
 
+This task management app lets the Users organize their tasks appropriately.
+
+You can use this app in conjunction with my Task Tracking management API (https://github.com/ochienghesbon/phase-3-sinatra-react-project?organization=ochienghesbon&organization=ochienghesbon)
+
 ## Requirements
 
 - Ruby 2.7.4
