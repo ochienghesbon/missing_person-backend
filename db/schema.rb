@@ -21,7 +21,7 @@ ActiveRecord::Schema.define(version: 2022_10_11_171749) do
     t.integer "age"
     t.string "location"
     t.string "description"
-    t.boolean "isMissing", default: true, null: false
+    t.boolean "is_missing", default: true, null: false
     t.datetime "created_at", precision: 6, null: false
     t.datetime "updated_at", precision: 6, null: false
   end

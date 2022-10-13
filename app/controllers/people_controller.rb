@@ -38,7 +38,7 @@ def destroy
   private
 
   def people_params
-    params.permit(:name, :image, :age, :description, :isMissing, :location)
+    params.permit(:name, :image, :age, :description, :is_missing, :location)
   end
 
   def find_people

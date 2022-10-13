@@ -5,9 +5,12 @@
 #
 #   movies = Movie.create([{ name: 'Star Wars' }, { name: 'Lord of the Rings' }])
 #   Character.create(name: 'Luke', movie: movies.first)
-puts "seeding data!"
-People.create(name: "Dennis",age:20, location: "Nairobi", image: "", description: "The data", isMissing:true )
-People.create(name: "Murage",age:22, location: "Kisunu", image: "", description: "The data", isMissing:true )
-People.create(name: "Erick",age:27, location: "Narok", image: "", description: "The data", isMissing:true )
+puts "seeding data...."
+People.create(name: "Dennis",age:20, location: "Nairobi", image: "https://i.pinimg.com/564x/e2/83/e2/e283e20690e323b711f7aa926de36bcf.jpg", description: "The data", is_missing:true )
+People.create(name: "Murage",age:22, location: "Kisunu", image: "https://i.pinimg.com/564x/e2/83/e2/e283e20690e323b711f7aa926de36bcf.jpg", description: "The data", is_missing:true )
+People.create(name: "Erick",age:27, location: "Narok", image: "https://i.pinimg.com/564x/e2/83/e2/e283e20690e323b711f7aa926de36bcf.jpg", description: "The data", is_missing:true )
 
-
+User.create(firstname: "Dennis", lastname: "kosgei", username: "Deno", password: "123456")
+User.create(firstname: "Eric", lastname: "M", username: "eric", password: "1234567")
+ 
+puts "Done seeding!"
